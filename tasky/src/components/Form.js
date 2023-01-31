@@ -45,6 +45,17 @@ const AddTaskForm = (props) => {
         onChange={(event) => props.change(event)}
       />
     </div>
+
+    <div>
+      <TextField
+        name="priority"
+        id="outlined-multiline-static"
+        label="Task Priority"
+        InputLabelProps={{ shrink: true }}
+        onChange={(event) => props.change(event)}
+      />
+    </div>
+    
     <div>
       <Button 
         type="submit"
